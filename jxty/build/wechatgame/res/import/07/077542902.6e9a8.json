@@ -1,0 +1,407 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "WelcomeScene",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          },
+          "_designResolution": {
+            "__type__": "cc.Size",
+            "width": 480,
+            "height": 800
+          },
+          "_fitHeight": false
+        }
+      ],
+      "_id": "b5af1rIZo9PgYfDyBW+jYAS",
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 480,
+        "height": 800
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 240,
+        "y": 400
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "logo",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_spriteFrame": {
+            "__uuid__": "e5m9XiCA1GX4ODsZ7ZEIxB"
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 3
+          },
+          "isAlignOnce": false,
+          "_alignFlags": 41,
+          "_left": 64.5,
+          "_right": 64.5,
+          "_top": 97.5,
+          "_bottom": 537.5,
+          "_originalWidth": 351,
+          "_originalHeight": 165
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 351,
+        "height": 165
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": 220
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "dibu",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_spriteFrame": {
+            "__uuid__": "20GfLH4qFBg5U/1sIKINz2"
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 4
+          },
+          "isAlignOnce": false,
+          "_alignFlags": 44,
+          "_left": 108.5,
+          "_right": 108.5,
+          "_originalWidth": 263
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 263,
+        "height": 32
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -384
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "start_game",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 6
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 5
+          },
+          "_spriteFrame": {
+            "__uuid__": "bdms44O0NPHqJo2HRqHHpG"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 5
+          },
+          "transition": 3,
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 5
+              },
+              "component": "playGo",
+              "handler": "toScene"
+            }
+          ],
+          "_N$enableAutoGrayEffect": true,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$normalSprite": {
+            "__uuid__": "12quQZjJ5Bc4fgIQilfrpT"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "12quQZjJ5Bc4fgIQilfrpT"
+          },
+          "pressedSprite": {
+            "__uuid__": "12quQZjJ5Bc4fgIQilfrpT"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "12quQZjJ5Bc4fgIQilfrpT"
+          },
+          "hoverSprite": {
+            "__uuid__": "12quQZjJ5Bc4fgIQilfrpT"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 5
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 5
+          },
+          "isAlignOnce": false,
+          "_alignFlags": 41,
+          "_left": 144,
+          "_right": 144,
+          "_top": 336.5,
+          "_originalWidth": 221
+        },
+        {
+          "__type__": "044acynMb9IS5Gub+IDuQoo",
+          "node": {
+            "__id__": 5
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 192,
+        "height": 72
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": 27.5
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "start_lab",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 6
+          },
+          "_useOriginalSize": false,
+          "_actualFontSize": 32,
+          "_fontSize": 32,
+          "_N$file": {
+            "__uuid__": "bcNmO/eHRPtbwYYZYanfkA"
+          },
+          "_isSystemFontUsed": false,
+          "_N$string": "开始游戏",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        },
+        {
+          "__type__": "cc.LabelOutline",
+          "node": {
+            "__id__": 6
+          },
+          "_color": {
+            "__type__": "cc.Color"
+          },
+          "_width": 2
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 132,
+        "height": 40
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "playGo",
+      "texture": "31kcY0YvtCB73EZau1mFFn",
+      "rect": [
+        2,
+        0,
+        219,
+        92
+      ],
+      "offset": [
+        1,
+        1.5
+      ],
+      "originalSize": [
+        221,
+        95
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "dibu",
+      "texture": "a4mTK9H/xIJb1ljK/4pXx3",
+      "rect": [
+        14,
+        16,
+        263,
+        32
+      ],
+      "offset": [
+        -1,
+        -8
+      ],
+      "originalSize": [
+        293,
+        48
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71VhFCTINJM6/Ky3oX9nBT",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        7,
+        15,
+        9
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "button_5_2",
+      "texture": "ediC2PjOBLjpum7bAZ8EiT",
+      "rect": [
+        0,
+        0,
+        192,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        192,
+        72
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "logo",
+      "texture": "70pBaM2u9L+b3msGqd6CiM",
+      "rect": [
+        0,
+        0,
+        351,
+        165
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        351,
+        165
+      ]
+    }
+  }
+]
